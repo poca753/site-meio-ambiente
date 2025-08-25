@@ -12,9 +12,30 @@ h2{
     color: #9fd762;
 }
 header{
-    padding-top: 25px;
+    
 
 }
-div{
+nav{
     background-color: #9fd762;
+    padding: 25px;
+    border-radius: 5px;
+    
+    
+}
+nav>a{
+    color: rgb(0, 0, 0);
+ padding: 15px;
+ margin: 10px;
+ border-radius: 5px;
+ text-decoration: none;
+ font-weight: bolder;
+ transition-duration: 0.3s; 
+ font-size: 20px;
+}
+nav>a:hover{
+    background-color: aliceblue;
+    border-radius: 90px;
+    padding: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
