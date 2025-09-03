@@ -24,7 +24,7 @@ nav{
 }
 nav>a{
     color: rgb(0, 0, 0);
- padding: 15px;
+ padding: 10px;
  margin: 10px;
  border-radius: 5px;
  text-decoration: none;
@@ -39,3 +39,4 @@ nav>a:hover{
     padding-top: 7px;
     padding-bottom: 7px;
 }
+
