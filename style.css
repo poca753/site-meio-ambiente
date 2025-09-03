@@ -57,9 +57,10 @@ nav{
 }
 
 .paginas>a{
-    background-color:green;
+    background-color:#9fd762;
+    background-color: ;
     color: rgb(0, 0, 0);
-    padding: 150px;
+    padding: 161px;
     padding-top: 20px;
     padding-bottom: 10px;
     border-radius: 5px;
