@@ -16,13 +16,13 @@ header{
 
 }
 nav{
-    background-color: #9fd762;
+    background-color: aliceblue;
     padding: 25px;
     border-radius: 5px;
     
     
 }
-nav>a{
+.links{
     color: rgb(0, 0, 0);
  padding: 10px;
  margin: 10px;
@@ -32,11 +32,37 @@ nav>a{
  transition-duration: 0.3s; 
  font-size: 20px;
 }
-nav>a:hover{
-    background-color: aliceblue;
+.links:hover{
+    background-color:#9fd762;
     border-radius: 90px;
     padding: 15px;
     padding-top: 7px;
     padding-bottom: 7px;
 }
-
+.titulo{
+    font-size: 30px;
+    color: #70c728;
+}
+.titulo:hover{
+    background-color:;
+    
+}
+.imagem{
+    padding-top: 250px;
+    padding-bottom: 300px;
+    background-image: url(imagem/amazonia\ 4.jpg);
+    background-repeat: no-repeat;
+    background-size: 1475px;
+}
+main{
+    background-color: aliceblue;
+    
+}
+main>h5{
+    color:black;
+    text-align:center ;
+    margin: 2px;
+}
+main>h1{
+    color:  black;
+}
