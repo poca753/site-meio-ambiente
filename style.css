@@ -12,19 +12,26 @@ h2{
     color: #9fd762;
 }
 header{
-    
+   margin: -25px;
 
 }
 nav{
     background-color: aliceblue;
     padding: 25px;
     border-radius: 5px;
-    
+}
+.titulo{
+    font-size: 30px;
+    color: #70c728;
+    text-decoration: none;
+}
+.titulo:hover{
+    background-color:;
     
 }
 .links{
     color: rgb(0, 0, 0);
- padding: 10px;
+ padding: 7px;
  margin: 10px;
  border-radius: 5px;
  text-decoration: none;
@@ -38,21 +45,27 @@ nav{
     padding: 15px;
     padding-top: 7px;
     padding-bottom: 7px;
+    transition-duration:;
 }
-.titulo{
-    font-size: 30px;
-    color: #70c728;
-}
-.titulo:hover{
-    background-color:;
-    
-}
+
 .imagem{
     padding-top: 250px;
     padding-bottom: 300px;
-    background-image: url(imagem/amazonia\ 4.jpg);
+    background-image: url();
     background-repeat: no-repeat;
     background-size: 1475px;
+}
+
+.paginas>a{
+    background-color:green;
+    color: rgb(0, 0, 0);
+    padding: 150px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 25px;
 }
 main{
     background-color: aliceblue;
