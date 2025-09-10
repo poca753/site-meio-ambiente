@@ -6,12 +6,15 @@
     font-family: "Cartoon";
     src: url(fonte/CARTOON\ FREE.ttf);
     font-weight: normal;
+
+    @import url();
 }
 header{
    margin: -25px;
+   background-color: white;
 }
 nav{
-    background-color: aliceblue;
+    background-color: white;
     padding: 25px;
     border-radius: 5px;
 }
@@ -34,6 +37,7 @@ nav{
  font-weight: bolder;
  transition-duration: 0.3s; 
  font-size: 20px;
+ font-family: 'Courier New', Courier, monospace;
 }
 .links:hover{
     background-color:#9fd762;
