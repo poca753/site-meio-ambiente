@@ -1,19 +1,14 @@
-h1{
-color: #70c728;
-text-align: center;
-margin: 0px;
-padding-left: 30px;
-font-size: xx-large;
-margin: ;
-}
-h2{
-    margin: 0px;
-    text-align: center;
-    color: #9fd762;
+@charset "UTF-8";
+
+@import url(fonte/CARTOON\ FREE.ttf);
+
+@font-face {
+    font-family: "Cartoon";
+    src: url(fonte/CARTOON\ FREE.ttf);
+    font-weight: normal;
 }
 header{
    margin: -25px;
-
 }
 nav{
     background-color: aliceblue;
@@ -24,6 +19,7 @@ nav{
     font-size: 30px;
     color: #70c728;
     text-decoration: none;
+    font-family: "Cartoon";
 }
 .titulo:hover{
     background-color:;
