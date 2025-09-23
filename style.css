@@ -10,7 +10,6 @@ body {
     background-color: #ffffff;
 }
 
-/* Topo */
 .top-bar {
     background-color: #1d6e1d;
     display: flex;
@@ -31,18 +30,24 @@ body {
 }
 
 .social-icons img {
-    width: 30px;
+    width: 45px;
     margin-left: 10px;
+
 }
 
 /* Cabeçalho */
 .header-content {
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 15px 20px;
     background-color: #ffffff;
     border-bottom: 4px solid #1d6e1d;
+}
+
+#logo-escola{
+  width: 100px;
 }
 
 .logo-area {
@@ -135,3 +140,19 @@ body {
     background-color: white;
     font-size: 14px;
     cursor: poin
+
+}
+.welcome-box {
+    background-image: url(imagem/img_9079.webp );
+    height: 500px;
+    background-size: cover;
+    color: aliceblue;
+    font-size: x-large;
+    background-repeat: no-repeat;
+    text-align: left 10px;
+
+    
+    
+    
+
+}
