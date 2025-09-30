@@ -131,10 +131,12 @@ body {
     border-radius: 20px;
     cursor: pointer;
 }
-.side-button
+.side-button>a{
+    text-decoration: none;
+}
 
 .voltar-button {
-    margin-top: 120px;
+    margin-top: 130px;
     padding: 10px 15px;
     border-radius: 5px;
     border: none;
