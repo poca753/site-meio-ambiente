@@ -119,20 +119,21 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 10px 30px;
-    gap: 15px;
+    gap: 30px;
 }
 
 .side-button {
     margin: 1vh;
-    width: 120px;
+    width: 140px;
     height: 40px;
     background-color: white;
     border: none;
-    border-radius: 20px;
+    border-radius: 15px;
     cursor: pointer;
 }
-.side-button>a{
+.side-button a{
     text-decoration: none;
+    background-color: ;
 }
 
 .voltar-button {
@@ -153,9 +154,4 @@ body {
     font-size: x-large;
     background-repeat: no-repeat;
     text-align: left 10px;
-
-    
-    
-    
-
 }
