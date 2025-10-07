@@ -44,6 +44,7 @@ body {
     padding: 15px 20px;
     background-color: #ffffff;
     border-bottom: 4px solid #1d6e1d;
+    background-attachment: fixed;
 }
 
 #logo-escola{
@@ -119,36 +120,40 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 10px 30px;
-    gap: 30px;
+    gap: 20px;
 }
 
 .side-button {
-    margin: 1vh;
     width: 140px;
-    height: 40px;
+    height: 50px;
     background-color: white;
     border: none;
     border-radius: 15px;
     cursor: pointer;
-}
-.side-button a{
     text-decoration: none;
-    background-color: ;
+    text-align: center;
+    padding: 10px;
+    color: black;
+
 }
 
 .voltar-button {
-    margin-top: 130px;
+    margin-top: 30px;
     padding: 10px 15px;
     border-radius: 5px;
     border: none;
     background-color: white;
     font-size: 14px;
     cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    color: black;
 
 }
 .welcome-box {
     background-image: url(imagem/img_9079.webp );
-    height: 500px;
+    height: 100vh;
+    width: 100vw;
     background-size: cover;
     color: aliceblue;
     font-size: x-large;
