@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turno</title>
+    <style>
+        .tables-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* Cria duas colunas de tamanho igual */
+            gap: 6px; /* Espaço entre as tabelas */
+        }
+
+        table {
+            width: 100%; /* Tabelas ocuparão 100% da largura de suas células */
+            border-collapse: collapse;
+            margin: 0;
+            width: px;
+        }
+
+        th, td {
+            padding: 3px;
+            text-align: center;
+            border: 3px solid #ccc;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <button class="login-button">Login</button>
+            <div class="social-icons">
+                <img src="imagem/facebook logo.webp" alt="Facebook">
+                <img src="imagem/whatsapp-logo.webp" alt="WhatsApp">
+            </div>
+        </div>
+
+        <div class="header-content">
+            <div class="logo-area">
+                <img id="logo-escola" src="imagem/lgo escola.jpg" alt="Logo do colégio" class="logo">
+                <p class="school-name">COLÉGIO MÁRIO BRAGA</p>
+            </div>
+
+            <div class="title-area">
+                <h1>Curso de meio <br><span>Ambiente</span></h1>
+            </div>
+
+            <div class="search-box">
+                <input type="text" placeholder="">
+                <button><img src="search-icon.png" alt="Pesquisar"></button>
+            </div>
+        </div>
+    </header>
+
+    <div class="main">
+        <aside class="sidebar">
+            <a class="side-button" href="index.html">Início</a>
+            <a href=""class="side-button">Carga horária</a>
+            <a href="materias.html" class="side-button">Matérias do curso </a>
+            <a href="" class="side-button">Capacidade de alunos </a>
+            <a href="" class="side-button">Matérias diminuidas</a>
+            <a href="" class="side-button">Turno</a>
+            <a href="" class="side-button">Requisitos basicos</a>
+            <a href="" class="voltar-button">voltar </a>
+        </aside>
+
+        <section class="content">
+            <div class="welcome-box">
+                <h2>Turno</h2>
+                <div class="tables-container">
+                    <!-- Tabela 1 -->
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Aula</th>
+                                <th>1 Ano</th>
+                                <th>2 Ano</th>
+                                <th>3 Ano</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>Artes</th>
+                                <td>67</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <th>Educação Física</th>
+                                <td>67</td>
+                                <td>0</td>
+                                <td>67</td>
+                            </tr>
+                            <tr>
+                                <th>Lingua Inglesa</th>
+                                <td>67</td>
+                                <td>67</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <th>Lingua Portuguesa</th>
+                                <td>100</td>
+                                <td>100</td>
+                                <td>113</td>
+                            </tr>
+                            <tr>
+                                <th>Filosofia</th>
+                                <td>67</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <th>Geografia</th>
+                                <td>67</td>
+                                <td>67</td>
+                                <td>0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <!-- Tabela 2 -->
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Aula</th>
+                                <th>1 Ano</th>
+                                <th>2 Ano</th>
+                                <th>3 Ano</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>História</th>
+                                <td>67</td>
+                                <td>66</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <th>Sociologia</th>
+                                <td>0</td>
+                                <td>66</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <th>Matemática</th>
+                                <td>100</td>
+                                <td>100</td>
+                                <td>113</td>
+                            </tr>
+                            <tr>
+                                <th>Física</th>
+                                <td>66</td>
+                                <td>0</td>
+                                <td>67</td>
+                            </tr>
+                            <tr>
+                                <th>Química</th>
+                                <td>66</td>
+                                <td>67</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <th>Biologia</th>
+                                <td>66</td>
+                                <td>67</td>
+                                <td>0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
