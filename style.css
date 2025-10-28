@@ -1,27 +1,26 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=BBH+Sans+Bogle&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-@font-face {
-    font-family: Amaranth;
-    src: url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=BBH+Sans+Bogle&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-}
-:root{
-    --fonte1: "Amaranth";
-    --fonte2: "Dancing Script", "sans-serif";
-    
+/* Variáveis de fonte */
+:root {
+    --fonte1: "Amaranth", sans-serif;
+    --fonte2: "Dancing Script", sans-serif;
 }
 
+/* Reset básico */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Corpo da página */
 body {
     font-family: Arial, sans-serif;
     background-color: #ffffff;
 }
 
+/* Barra superior */
 .top-bar {
     background-color: #1d6e1d;
     display: flex;
@@ -31,36 +30,25 @@ body {
     color: white;
 }
 
-.login-button {
-    padding: 5px 10px;
-    background-color: white;
-    color: black;
-    border: none;
-    border-radius: 4px;
-    font-size: 14px;
-    cursor: pointer;
-}
-
 .social-icons img {
     width: 45px;
     margin-left: 10px;
-
 }
 
 /* Cabeçalho */
 .header-content {
-    
+    position: relative; /* Necessário para posicionar o título de forma absoluta */
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start; /* mantém a logo à esquerda */
     padding: 15px 20px;
     background-color: #ffffff;
     border-bottom: 4px solid #1d6e1d;
-    background-attachment: fixed;
 }
 
-#logo-escola{
-  width: 100px;
+/* Logo */
+#logo-escola {
+    width: 100px;
 }
 
 .logo-area {
@@ -78,21 +66,31 @@ body {
     font-weight: bold;
 }
 
+/* Título centralizado ABSOLUTO */
+.title-area {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
 .title-area h1 {
     font-family: var(--fonte1);
     font-size: 26px;
-    text-align: center;
     color: #000000;
     font-weight: normal;
+    line-height: 1.2;
 }
 
 .title-area h1 span {
     font-family: var(--fonte1);
     font-weight: bold;
     font-size: 30px;
-    font-family: ;
+    color: #1d6e1d; /* destaca a palavra "Ambiente" */
 }
 
+/* Caixa de pesquisa (caso use futuramente) */
 .search-box {
     border: 2px solid #1d6e1d;
     border-radius: 20px;
@@ -112,6 +110,7 @@ body {
 
 .search-box button {
     background: none;
+    align-items: flex-end;
     border: none;
     cursor: pointer;
 }
@@ -149,7 +148,6 @@ body {
     text-align: center;
     padding: 10px;
     color: black;
-
 }
 
 .voltar-button {
@@ -163,19 +161,18 @@ body {
     text-decoration: none;
     text-align: center;
     color: black;
-
 }
+
+/* Conteúdo principal */
 .welcome-box {
     font-family: var(--fonte1);
-    background-image: url(imagem/img_9079.webp );
+    background-image: url(imagem/img_9079.webp);
     height: 100vh;
     width: 100vw;
     background-size: cover;
+    background-repeat: no-repeat;
     color: aliceblue;
     font-size: x-large;
-    background-repeat: no-repeat;
-    text-align: left 10px;
+    text-align: left;
     padding: 20px;
 }
-
-
